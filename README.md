@@ -4,3 +4,4 @@ The script "1_CSV interpolation" performs interpolation of the coefficients and 
 The script "2_downscaling1" performs operations on the above coefficients and residuals to obtain high-resolution precipitation data. In this script, the coefficients need to be placed in a separate folder, and the high-resolution .tif data should be placed in another folder.
 The script "2_downscaling2" is used to check the downscaling results and ensure that the precipitation values are greater than or equal to 0.
 At this point, we have obtained high-resolution monthly precipitation data.
+The script "3_Calculate daily proportion" is used to compute the ratio of each original daily-scale data value to the corresponding monthly-scale data. After completing this operation, a mask extraction should be applied to the result.
