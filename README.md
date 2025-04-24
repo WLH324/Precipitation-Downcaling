@@ -5,3 +5,6 @@ The script "2_downscaling1" performs operations on the above coefficients and re
 The script "2_downscaling2" is used to check the downscaling results and ensure that the precipitation values are greater than or equal to 0.
 At this point, we have obtained high-resolution monthly precipitation data.
 The script "3_Calculate daily proportion" is used to compute the ratio of each original daily-scale data value to the corresponding monthly-scale data. After completing this operation, a mask extraction should be applied to the result.
+The script "4_resampling" is used to resample the original ratio data to the target resolution.
+The script "5_downscaling daily" is used to calculate high-resolution daily-scale data using high-resolution ratio data and high-resolution monthly-scale data. 
+At this point, the downscaling results are completed.
