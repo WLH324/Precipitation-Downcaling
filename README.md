@@ -8,3 +8,4 @@ The script "3_Calculate daily proportion" is used to compute the ratio of each o
 The script "4_resampling" is used to resample the original ratio data to the target resolution.
 The script "5_downscaling daily" is used to calculate high-resolution daily-scale data using high-resolution ratio data and high-resolution monthly-scale data. 
 At this point, the downscaling results are completed.
+The script "daily correction" is use to improve the accuracy of downscaled daily data.
